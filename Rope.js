@@ -1,4 +1,4 @@
-class rope{
+class Rope{
     constructor(body1,body2,offsetX,offsetY){
     this.offsetX=offsetX;
     this.offsetY =offsetY;
@@ -8,12 +8,12 @@ class rope{
         bodyB:body2,
         pointB={x:offsetX=offsetX,y:offsetY =offsetY}
     }
-    this.rope=mater.constraint.create(op)
-    World.add(World,this.rope)
+    this.Rope=mater.constraint.create(op)
+    World.add(World,this.Rope)
     }
     display(){
-        var point1 =this.rope.bodyA.position;
-        var point2 =this.rope.bodyB.position;
+        var point1 =this.Rope.bodyA.position;
+        var point2 =this.Rope.bodyB.position;
 
         strokeWeight(2)
 
