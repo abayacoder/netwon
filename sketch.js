@@ -1,4 +1,4 @@
-var roof,rope1,rope2,rope3,rope4,rope5,bobObject1, bobObject2, bobObject3, bobObject4, bobObject5
+var roof,Rope1,Rope2,Rope3,Rope4,Rope5,bobObject1, bobObject2, bobObject3, bobObject4, bobObject5
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -26,20 +26,20 @@ function setup() {
 	bobObject4= new bob(400,300);
 	bobObjec5= new bob(450,300);
 	
-  rope1=new rope (bobObject1.body,roof.body,-100,0);
-  World.add(world,rope1)	
+  Rope1=new Rope (bobObject1.body,roof.body,-100,0);
+  World.add(world,Rope1)	
   
-  rope2=new rope (bobObject1.body,roof.body,-50,0);
-  World.add(world,rope2)	
+  Rope2=new Rope (bobObject1.body,roof.body,-50,0);
+  World.add(world,Rope2)	
   
-  rope3=new rope (bobObject1.body,roof.body,-0,0);
-  World.add(world,rope3)	
+  Rope3=new Rope (bobObject1.body,roof.body,-0,0);
+  World.add(world,Rope3)	
   
-  rope4=new rope (bobObject1.body,roof.body,+50,0);
-  World.add(world,rope4)	
+  Rope4=new Rope (bobObject1.body,roof.body,+50,0);
+  World.add(world,Rope4)	
   
-  rope5=new rope (bobObject1.body,roof.body,+100,0);
-  World.add(world,rope5)	
+  Rope5=new Rope (bobObject1.body,roof.body,+100,0);
+  World.add(world,Rope5)	
   
  
 }
@@ -59,10 +59,10 @@ roof.display();
   bobObject4.display();
   bobObject5.display();
 
-  rope1.display();
-  rope2.display();
- rope4.display();
- rope5.display();
+  Rope1.display();
+  Rope2.display();
+ Rope4.display();
+ Rope5.display();
 
  drawSprites();
  
