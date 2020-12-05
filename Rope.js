@@ -9,7 +9,7 @@ class Rope{
         pointB:{x:offsetX=offsetX,y:offsetY =offsetY}
     }
     this.Rope=mater.constraint.create(op)
-    World.add(World,this.Rope)
+    World.add(world,this.Rope)
     }
     display(){
         var point1 =this.Rope.bodyA.position;
