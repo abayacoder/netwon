@@ -66,10 +66,8 @@ roof.display();
 
  drawSprites();
  
-
+}
 function keyPressed(){
 	if(Keycode===32)
 	Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:730,y:0})
 }
-}
-
