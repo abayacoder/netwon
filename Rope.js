@@ -6,7 +6,7 @@ class Rope{
     var op={
         bodyA:body1,
         bodyB:body2,
-        pointB={x:offsetX=offsetX,y:offsetY =offsetY}
+        pointB:{x:offsetX=offsetX,y:offsetY =offsetY}
     }
     this.Rope=mater.constraint.create(op)
     World.add(World,this.Rope)
