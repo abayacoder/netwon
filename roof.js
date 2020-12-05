@@ -2,7 +2,7 @@ class roof{
     constructor(x,y,width,height)
     {
        this.width=width;
-       this.heigth=height;
+       this.height=height;
        this.body=Bodies.rectangle(x,y,width,height,{isStatic:true})
         World .add(world,this.body)
     }
