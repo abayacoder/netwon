@@ -68,6 +68,6 @@ roof.display();
  
 }
 function keyPressed(){
-	if(Keycode===32)
+	if(KeyCode===32)
 	Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:730,y:0})
 }
